@@ -25,11 +25,11 @@ body{
 
 .gif{
     border-radius: 10px;
-    width: 400px;
+    width: 22rem;
     max-width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    margin: 5px;
+    margin: 10px;
     
 }
 

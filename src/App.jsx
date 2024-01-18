@@ -4,7 +4,7 @@ import { useSearchGifs } from "./useSearchGifs";
 
 function App() {
 
-  const {valorInput,onChange,onSubmit,gifs,estaCargando} = useSearchGifs()
+  const {valorInput,onChange,onSubmit,gifs,estaCargando,error} = useSearchGifs()
   
 
   return (

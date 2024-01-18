@@ -11,13 +11,13 @@ const variants = {
 export const Gif = ({gif,index}) =>{
 
     const ref = useRef(null)
-    const estaVisto = useInView(ref,{once:true})
+    //const estaVisto = useInView(ref,{once:true})
 
     return(
         <motion.img 
         ref={ref}
         initial={"inicial"}
-        animate={estaVisto ? "animate" : ""}
+        animate="animate"
         variants={variants}
         custom={{index}}
         whileHover={{
